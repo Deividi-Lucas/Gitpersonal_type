@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Input } from "../input"
-import { Section } from "../section"
+import { Section } from "../Section"
 import { Main } from "./style"
 import axios from "axios"
 

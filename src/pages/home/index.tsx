@@ -1,9 +1,9 @@
 import { Main } from "./style";
 import logo from '../../assets/react.svg'
-import { Header } from "../../components/header";
-import { Footer } from "../../components/footer";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 import { Input } from "../../components/input";
-import { Card } from "../../components/card";
+import { Card } from "../../components/Card";
 
 export function Home() {
   return (
