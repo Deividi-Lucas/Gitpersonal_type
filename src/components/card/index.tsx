@@ -14,7 +14,7 @@ export const Card = ({ label }: CardProps) => {
   const [handleValue, setHandleValue]: any = useState('')
 
   async function GetValue() {
-    return (await axios.get(`https://api.github.com/users/${handleinput}`).then((res: any) => console.log(res.data))
+    return (await axios.get(`https://api.github.com/users/${handleinput}`).then((res: any) => setHandleValue(res.data))
     )
   }
   return (
